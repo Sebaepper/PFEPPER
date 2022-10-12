@@ -1,0 +1,158 @@
+    *{
+    margin: 0%;
+    padding:0% ;
+    }
+
+    header{
+        text-align: center;
+     background-color: rgb(227, 233, 233);
+     @import url(https://fonts.googleapis.com/css?family=Tangerine);
+     font-style:'tangerine' ;
+     margin: 0%;
+     }
+
+    li {
+   
+        background-color: #4CAF50;
+        text-align: center;
+        font-style:italic ;
+        font-size: 5mm;
+    }
+
+    .principal{
+        font-family: 'Tangerine', serif;
+        font-size: 48px;
+        text-shadow: 4px 4px 4px #aaa;
+    }
+
+    
+    .BOT1 {
+
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 2px 1px;
+    cursor: pointer;
+    }
+
+    
+    .flex-container{
+    
+    display: flex;
+    justify-content:center;
+    margin: 20px;
+    flex-wrap: wrap;
+    
+    }
+
+    .flex-container > div{
+        
+    margin: 20px;
+        
+    }
+
+    
+    .ppp{
+    display: flex;
+    flex-direction: row;
+    text-align:center ;
+    font-family: sans-serif;
+     }
+
+    .FOOTER{
+
+    text-align:center;
+    margin: 100PX;
+    }
+
+/* otro doc */
+a{
+    font-style: italic;
+    color: black;
+    border-bottom: 10px;
+}
+
+
+
+.grid-container{
+display: grid;
+margin: 0px;   
+align-content: space-between;
+grid-template-columns: auto auto ;
+ ;
+}
+
+.grid-item{
+    
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 0px;
+    font-size: 30px;
+    text-align:center;
+
+}
+
+.dflot{
+    text-align: center;
+  border-style: double;
+    
+    font-style:'tangerine' ;
+ }
+
+ .nav1{
+
+    display: grid;  
+ grid-template-columns: auto;
+ }
+
+  .inst{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+  justify-content:space-around;
+  margin: 40px;
+  
+    }
+
+    .ISO{
+text-align:center ;
+    }
+
+    
+
+    .TITCLIENT{
+        background-color: yellow;
+border-style: double;
+PAdding: 30PX ;
+font-style: oblique;
+
+    }
+
+    .marc{
+        justify-items: center;
+        border-style:solid;
+    }
+
+    .contacto{
+        border-style: double;
+        margin: 30px;
+
+justify-items: center;
+
+    }
+
+    .us{
+
+        width: 600px;
+        height: 400px;
+        text-align: center;
+        background-color: #4CAF50;
+        border-style: solid;
+
+
+
+    }
