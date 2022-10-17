@@ -22,7 +22,7 @@
     }
 
     .principal{
-                font-family: 'Tangerine', serif;
+        font-family: 'Tangerine', serif;
         font-size: 48px;
         text-shadow: 4px 4px 4px #aaa;
     }
@@ -164,7 +164,7 @@ margin: 0px;
  }
  
 
-    @media screen and (min-whidth: 768px) {
+    @media screen and (min-whidth: 600px) {
         .body {
 
             background-color: #000000;
