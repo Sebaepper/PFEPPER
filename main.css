@@ -141,16 +141,16 @@ justify-items: center;
 
     .us{
 
-        width: 600px;
-        height: 400px;
-        text-align: center;
-        background-color: #4CAF50;
-        border-style: solid;
+       
+        text-align:center ;
+        align-items: center;
+       
+        
     }
 .anima{
 margin: 0px;
-    animation-duration: 60s;
-   animation-name: aparecer ;
+    animation-duration: 30s;
+   animation-name: aparecer;
    animation-iteration-count: infinite;
 
 }
