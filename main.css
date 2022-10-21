@@ -1,88 +1,74 @@
-    *{
-    margin: 0%;
-    padding:0% ;
-    }
+*{
+margin: 0%;
+padding:0% ;
+}
 
-    header{
-     text-align: center;
-     background-image: linear-gradient(rgb(192, 184, 184), white);    
-     @import url(https://fonts.googleapis.com/css?family=Tangerine);
-     margin: 0%;
-     
-     }
+header{
+text-align: center;
+background-image: linear-gradient(rgb(192, 184, 184), white);    
+@import url(https://fonts.googleapis.com/css?family=Tangerine);
+margin: 0%;
+}
+  
+li {
+background-image: linear-gradient(white,rgb(192, 184, 184) ); 
+text-align: center;
+font-style:italic;
+font-size: 20   mm;
+padding: 20px;
+}
 
-   
-    li {
-   
-        background-image: linear-gradient(white,rgb(192, 184, 184) ); 
-        text-align: center;
-        font-style:italic;
-         font-size: 20   mm;
-        padding: 20px;
-    }
-
-    .principal{
-    font-size: 48px;
-    text-shadow: 4px 4px 4px #aaa;
-    }
+.principal{
+font-size: 48px;
+text-shadow: 4px 4px 4px #aaa;
+}
 
     
-    .BOT1 {
-        
-
-    background-image: linear-gradient(white,rgb(192, 184, 184) );
-    border: 1px;
-    border-style: solid;
-    border-color: #000000;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 2px 1px;
-    cursor:pointer;
-    }
-
+.BOT1 {
+background-image: linear-gradient(white,rgb(192, 184, 184) );
+border: 1px;
+border-style: solid;
+border-color: #000000;
+color: white;
+padding: 10px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 2px 1px;
+cursor:pointer;
+}
     
-    .flex-container{
-    background-image: -moz-linear-gradient(YELLOW RED);
-    display: flex;
-    justify-content:center;
-    margin: 20px;
-    flex-wrap: wrap;
+.flex-container{
+background-image: -moz-linear-gradient(YELLOW RED);
+display: flex;
+justify-content:center;
+margin: 20px;
+flex-wrap: wrap;
+}
+
+.flex-container > div{
+margin: 20px;
+}
     
-    }
+.ppp{
+display: flex;
+flex-direction: row;
+text-align:center;
+font-family: sans-serif;
+}
 
-    .flex-container > div{
-        
-    margin: 20px;
-        
-    }
-
-    
-    .ppp{
-    display: flex;
-    flex-direction: row;
-    text-align:center;
-    font-family: sans-serif;
-    }
-
-
-    .FOOTER{
-
-    text-align:center;
-    margin: 100PX;
-    }
+.FOOTER{
+text-align:center;
+margin: 100PX;
+}
 
 /* otro doc */
 a{
-    font-style: italic;
-    color: black;
-    border-bottom: 10px;
+font-style: italic;
+color: black;
+border-bottom: 10px;
 }
-
-
 
 .grid-container{
 display:grid;
@@ -99,7 +85,8 @@ width: 550px;
 height: 400px;
 border-style:solid ;
 color: black;
-} 
+}
+
 .item2{
 background-image: url(./imagenes/flota1.jpg);
 background-size: cover;
@@ -108,103 +95,98 @@ width: 550px;
 height: 400px;
 border-style: solid;
 color: black;
-} 
+}
+
 .item3{
-  background-image: url(./imagenes/flota2.jpg);
-  background-size: cover;
-  margin: 2px;
-  width: 550px;  
-  height: 400px;
-  border-style: solid;
-  color: black;
-} 
+background-image: url(./imagenes/flota2.jpg);
+background-size: cover;
+margin: 2px;
+width: 550px;  
+height: 400px;
+border-style: solid;
+color: black;
+}
+
 .item4{
-  background-image: url(./imagenes/flota3.jpg);
-  background-size: cover;
-  margin: 2px;
-  width: 550px;  
-  height: 400px;
-  border-style: solid;
-  color: black;
-}            
+background-image: url(./imagenes/flota3.jpg);
+background-size: cover;
+margin: 2px;
+width: 550px;  
+height: 400px;
+border-style: solid;
+color: black;
+}
+
 .item5{
-  background-image: url(./imagenes/flota4.jpg);
-  background-size: cover;
-  margin: 2px;
-  width: 550px;  
-  height: 400px;
-  border-style: solid;
-  color: black;
-} 
+background-image: url(./imagenes/flota4.jpg);
+background-size: cover;
+margin: 2px;
+width: 550px;  
+height: 400px;
+border-style: solid;
+color: black;
+}
+
 .item6{
-  background-image: url(./imagenes/flota5.jpg);
-  background-size: cover;
-  margin: 2px;
-  width: 550px;  
-  height: 400px;
-  border-style: solid;
-  color: black
-} 
+background-image: url(./imagenes/flota5.jpg);
+background-size: cover;
+margin: 2px;
+width: 550px;  
+height: 400px;
+border-style: solid;
+color: black
+}
+
 .dflot{
-    text-align: center;
-  border-style: double;
-    
-    font-style:'tangerine' ;
- }
+text-align: center;
+border-style: double;
+font-style:'tangerine' ;
+}
 
+.nav1{
+display: grid;  
+grid-template-columns: auto;
+}
 
- .nav1{
+.inst{
+display: flex;
+flex-direction:row;
+flex-wrap: wrap;
+justify-content:space-around;
+margin: 40px;
+}
 
-    display: grid;  
- grid-template-columns: auto;
- }
-
-  .inst{
-    display: flex;
-    flex-direction:row;
-    flex-wrap: wrap;
-  justify-content:space-around;
-  margin: 40px;
-  
-    }
-
-    .ISO{
+.ISO{
 text-align:center ;
-    }
+}
 
       
-    .marc{
-        justify-items: center;
-        border-style:solid;
-    }
-
-    .contacto{
-        border-style: double;
-        margin: 30px;
-
+.marc{
 justify-items: center;
-
-    }
-
-    .us{
-
-       
-        text-align:center ;
-        
-       
-        
-    }
-.anima{
-  
-   margin: 0px;
-   animation-duration: 30s;
-   animation-name: aparecer;
-   animation-iteration-count: infinite;
-
+border-style:solid;
 }
+
+.contacto{
+border-style: double;
+margin: 30px;
+Justify-items: center;
+}
+
+.us{
+padding: 30px ;
+margin: 30px;
+text-align:center ;
+}
+.anima{
+margin: 0px;
+animation-duration: 30s;
+animation-name: aparecer;
+animation-iteration-count: infinite;
+}
+
 @keyframes aparecer {
-    0% {
-      opacity: 0;
+0% {
+    opacity: 0;
     }
     100% {
       opacity: 1;
@@ -212,18 +194,21 @@ justify-items: center;
  }
   
 
-    @media screen and (min-whidth: 600px) {
+@media screen and (min-whidth: 600px) {
         body {
-
             background-color: #000000;
         }
     }
 
-
-
-  .Marcas{
+.Marcas{
 display: grid;
 grid-template-columns: auto auto auto;
-
 justify-content: space-between;
-  }
+}
+
+.art{ 
+  margin: 30px;
+  padding: 30px;
+  border-style: solid;
+  border-color: #aaa;
+}
