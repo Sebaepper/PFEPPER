@@ -1,0 +1,269 @@
+*{
+    margin: 0%;
+    padding:0% ;
+    }
+    
+    *{
+      font-family: 'Franklin Gothic Medium', sans-serif;
+    }
+    header{
+      color: whitesmoke; 
+    text-align: center;
+    background-color:gray;    
+    margin: 0%;
+    }
+    
+    ul{
+    color: white;
+     background-color: gray;
+     
+    }
+    li {
+    text-align: center;
+    font-style:italic;
+    font-size: 8mm;
+    padding: 10px;
+    }
+    
+    .principal{
+    font-size: 15mm;
+    
+    }
+    
+        
+    .bot1 {
+    background-image: linear-gradient(rgb(27, 26, 26),rgb(192, 184, 184) );
+    border-color: #000000;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    margin: 2px 1px;
+    cursor:pointer;
+    }
+        
+    .flex-container{
+    
+    display: flex;
+    justify-content:space-between;
+    margin: 0px;
+    flex-wrap: wrap;
+    }
+    
+    .flex-container > div{
+    margin-top: 10px;
+    }
+        
+    .ppp{
+      background-image:url(./imagenes/banarg.jpg) ;
+      background-size: cover;
+    display: flex;
+    flex-direction: row;
+    text-align:center;
+    padding: 10px;
+    }
+    
+    .FOOTER{
+    text-align:center;
+    margin: 100PX;
+    }
+    
+    /* otro doc */
+    a{
+    font-style: italic;
+    color: black;
+    border-bottom: 10px;
+    }
+    
+    .grid-container{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    margin: 0%;
+    padding: 0ch;
+    
+    
+    }
+    
+    
+    .item1{
+    background-image: url(./imagenes/1.jpg);
+    background-size: cover;
+    margin: 2px;
+    width: 400px;  
+    height: 250px;
+    border-style:solid ;
+    color: black;
+    }
+    
+    .item2{
+    background-image: url(./imagenes/2.jpg);
+    background-size: cover;
+    margin: 2px;
+    width: 400px;  
+    height: 250px;
+    border-style: solid;
+    color: black;
+    }
+    
+    .item3{
+    background-image: url(./imagenes/3.jpg);
+    background-size:cover;
+    margin: 2px;
+    width: 400px;  
+    height: 250px;
+    border-style: solid;
+    color: black;
+    }
+    
+    .item4{
+    background-image: url(./imagenes/4.jpg);
+    background-size: cover;
+    margin: 2px;
+    width: 400px;  
+    height: 250px;
+    border-style: solid;
+    color: black;
+    }
+    
+    .item5{
+    background-image: url(./imagenes/5.jpg);
+    background-size: cover;
+    margin: 2px;
+    width: 400px;  
+    height: 250px;
+    border-style: solid;
+    color: black;
+    }
+    
+    .item6{
+    background-image: url(./imagenes/6.jpg);
+    background-size: cover;
+    margin: 2px;
+    width: 400px;  
+    height: 250px;
+    border-style: solid;
+    color: black
+    }
+    
+    .item7{
+        background-image: url(./imagenes/7.jpg);
+        background-size: cover;
+        margin: 2px;
+        width: 400px;  
+        height: 250px;
+        border-style: solid;
+        color: black
+        }
+
+        .item8{
+            background-image: url(./imagenes/8.jpg);
+            background-size: cover;
+            margin: 2px;
+            width: 400px;  
+            height: 250px;
+            border-style: solid;
+            color: black
+            }
+
+            .item9{
+                background-image: url(./imagenes/9.jpg);
+                background-size: cover;
+                margin: 2px;
+                width: 400px;  
+                height: 250px;
+                border-style: solid;
+                color: black
+                }
+    .dflot{
+    text-align: center;
+    border-style: double;
+    font-style:'tangerine' ;
+    }
+    
+    .nav1{
+    display: grid;  
+    grid-template-columns: auto;
+    }
+    
+    .inst{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    margin: 40px;
+    }
+    
+    .ISO{
+    text-align:center ;
+    }
+    
+          
+    .marc{
+    justify-items: center;
+    border-style:solid;
+    }
+    
+    .contacto{
+    border-style: double;
+    margin: 30px;
+    Justify-items: center;
+    }
+    
+    .us{
+    padding: 30px ;
+    margin: 30px;
+    text-align:center ;
+    }
+    .anima{
+    margin: 0px;
+    animation-duration: 30s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+    }
+    
+    @keyframes aparecer {
+    0% {
+        opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+     }
+      
+    
+    @media screen and (min-whidth: 600px) {
+            body {
+                background-color: #000000;
+            }
+        }
+    
+    
+    
+        @import url(https://fonts.googleapis.com/css?family=Tangerine);
+        .Marcas{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    }
+    
+    .art{ 
+      margin: 30px;
+      padding: 30px;
+      border-style: solid;
+      border-color: #aaa;
+    }
+
+    /* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+}
+
+    
