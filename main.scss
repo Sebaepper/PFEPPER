@@ -1,45 +1,6 @@
-*{
-    margin: 0%;
-    padding:0% ;
-    }
-    
-    *{
-      font-family: 'Franklin Gothic Medium', sans-serif;
-    }
-    header{
-      color: whitesmoke; 
-    text-align: center;
-    background-color:gray;    
-    margin: 0%;
-    }
-    
-    ul{
-    color: white;
-     background-color: gray;
-     
-    }
-    li {
-    text-align: center;
-    font-style:italic;
-    font-size: 8mm;
-    padding: 10px;
-    }
-    
-    .principal{
-    font-size: 15mm;
-    
-    }
-    
-        
-    .bot1 {
-    background-image: linear-gradient(rgb(27, 26, 26),rgb(192, 184, 184) );
-    border-color: #000000;
-    padding: 10px 20px;
-    text-align: center;
-    font-size: 16px;
-    margin: 2px 1px;
-    cursor:pointer;
-    }
+@import "fonts";
+
+@import "laflota";
         
     .flex-container{
     
@@ -50,129 +11,12 @@
     }
     
     .flex-container > div{
-    margin-top: 10px;
-    }
-        
-    .ppp{
-      background-image:url(./imagenes/banarg.jpg) ;
-      background-size: cover;
-    display: flex;
-    flex-direction: row;
-    text-align:center;
-    padding: 10px;
-    }
-    
-    .FOOTER{
-    text-align:center;
-    margin: 100PX;
-    }
-    
+      margin-top: 10px;
+      }
+          
     /* otro doc */
-    a{
-    font-style: italic;
-    color: black;
-    border-bottom: 10px;
-    }
-    
-    .grid-container{
-    display:grid;
-    grid-template-columns: auto auto auto;
-    margin: 0%;
-    padding: 0ch;
     
     
-    }
-    
-    
-    .item1{
-    background-image: url(./imagenes/1.jpg);
-    background-size: cover;
-    margin: 2px;
-    width: 400px;  
-    height: 250px;
-    border-style:solid ;
-    color: black;
-    }
-    
-    .item2{
-    background-image: url(./imagenes/2.jpg);
-    background-size: cover;
-    margin: 2px;
-    width: 400px;  
-    height: 250px;
-    border-style: solid;
-    color: black;
-    }
-    
-    .item3{
-    background-image: url(./imagenes/3.jpg);
-    background-size:cover;
-    margin: 2px;
-    width: 400px;  
-    height: 250px;
-    border-style: solid;
-    color: black;
-    }
-    
-    .item4{
-    background-image: url(./imagenes/4.jpg);
-    background-size: cover;
-    margin: 2px;
-    width: 400px;  
-    height: 250px;
-    border-style: solid;
-    color: black;
-    }
-    
-    .item5{
-    background-image: url(./imagenes/5.jpg);
-    background-size: cover;
-    margin: 2px;
-    width: 400px;  
-    height: 250px;
-    border-style: solid;
-    color: black;
-    }
-    
-    .item6{
-    background-image: url(./imagenes/6.jpg);
-    background-size: cover;
-    margin: 2px;
-    width: 400px;  
-    height: 250px;
-    border-style: solid;
-    color: black
-    }
-    
-    .item7{
-        background-image: url(./imagenes/7.jpg);
-        background-size: cover;
-        margin: 2px;
-        width: 400px;  
-        height: 250px;
-        border-style: solid;
-        color: black
-        }
-
-        .item8{
-            background-image: url(./imagenes/8.jpg);
-            background-size: cover;
-            margin: 2px;
-            width: 400px;  
-            height: 250px;
-            border-style: solid;
-            color: black
-            }
-
-            .item9{
-                background-image: url(./imagenes/9.jpg);
-                background-size: cover;
-                margin: 2px;
-                width: 400px;  
-                height: 250px;
-                border-style: solid;
-                color: black
-                }
     .dflot{
     text-align: center;
     border-style: double;
@@ -193,6 +37,7 @@
     }
     
     .ISO{
+      color:blue ;
     text-align:center ;
     }
     
@@ -236,7 +81,7 @@
             }
         }
     
-    
+   
     
         @import url(https://fonts.googleapis.com/css?family=Tangerine);
         .Marcas{

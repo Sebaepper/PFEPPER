@@ -6,12 +6,6 @@
 * {
   font-family: 'Franklin Gothic Medium', sans-serif; }
 
-header {
-  color: whitesmoke;
-  text-align: center;
-  background-color: gray;
-  margin: 0%; }
-
 ul {
   color: white;
   background-color: gray; }
@@ -34,32 +28,27 @@ li {
   margin: 2px 1px;
   cursor: pointer; }
 
-.flex-container {
-  display: flex;
+header {
+  color: whitesmoke;
+  text-align: center;
   justify-content: space-between;
-  margin: 0px;
-  flex-wrap: wrap; }
-
-.flex-container > div {
-  margin-top: 10px; }
+  background-color: gray;
+  margin: 0%; }
 
 .ppp {
-  background-image: url(./imagenes/banarg.jpg);
-  background-size: cover;
-  display: flex;
-  flex-direction: row;
-  text-align: center;
-  padding: 10px; }
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 15px;
+  text-align: justify; }
 
-.FOOTER {
-  text-align: center;
-  margin: 100PX; }
-
-/* otro doc */
 a {
   font-style: italic;
   color: black;
   border-bottom: 10px; }
+
+.FOOTER {
+  text-align: center;
+  margin: 100PX; }
 
 .grid-container {
   display: grid;
@@ -148,6 +137,16 @@ a {
   border-style: solid;
   color: black; }
 
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  flex-wrap: wrap; }
+
+.flex-container > div {
+  margin-top: 10px; }
+
+/* otro doc */
 .dflot {
   text-align: center;
   border-style: double;
@@ -165,6 +164,7 @@ a {
   margin: 40px; }
 
 .ISO {
+  color: blue;
   text-align: center; }
 
 .marc {
