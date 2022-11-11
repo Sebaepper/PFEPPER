@@ -1,114 +1,57 @@
 @import "fonts";
 
 @import "laflota";
+
+@import "flexgrid";
         
-    .flex-container{
-    
-    display: flex;
-    justify-content:space-between;
-    margin: 0px;
-    flex-wrap: wrap;
-    }
-    
-    .flex-container > div{
-      margin-top: 10px;
-      }
+@import "animacion";
           
-    /* otro doc */
-    
-    
-    .dflot{
-    text-align: center;
-    border-style: double;
-    font-style:'tangerine' ;
-    }
-    
-    .nav1{
-    display: grid;  
-    grid-template-columns: auto;
-    }
-    
-    .inst{
-    display: flex;
-    flex-direction:row;
-    flex-wrap: wrap;
-    justify-content:space-around;
-    margin: 40px;
-    }
-    
-    .ISO{
-      color:blue ;
-    text-align:center ;
-    }
-    
-          
-    .marc{
-    justify-items: center;
-    border-style:solid;
-    }
-    
-    .contacto{
-    border-style: double;
-    margin: 30px;
-    Justify-items: center;
-    }
-    
-    .us{
-    padding: 30px ;
-    margin: 30px;
-    text-align:center ;
-    }
-    .anima{
-    margin: 0px;
-    animation-duration: 30s;
-    animation-name: aparecer;
-    animation-iteration-count: infinite;
-    }
-    
-    @keyframes aparecer {
-    0% {
-        opacity: 0;
-        }
-        100% {
-          opacity: 1;
-        }
-     }
-      
+     
+            
     
     @media screen and (min-whidth: 600px) {
             body {
                 background-color: #000000;
             }
         }
-    
-   
-    
-        @import url(https://fonts.googleapis.com/css?family=Tangerine);
-        .Marcas{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    justify-content: space-between;
-    }
-    
-    .art{ 
-      margin: 30px;
-      padding: 30px;
-      border-style: solid;
-      border-color: #aaa;
-    }
-
-    /* On screens that are 992px wide or less, go from four columns to two columns */
+        
 @media screen and (max-width: 992px) {
     .column {
       width: 50%;
     }
   }
   
-  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
     .column {
       width: 100%;
     }
 }
 
-    
+@media screen and (max-width:480px){
+	body {
+		font-size:80%; // achicamos la fuente en pantallas pequeñas 
+	} 
+}
+
+/* Diseño para tabletas */ 
+@media screen and (min-width: 800px) {
+	#columna1, #columna2 {
+		float:left;
+		width:50%;
+	}
+}
+
+/* Diseño para PC */ 
+@media screen and (min-width: 1025px) {
+	#columna1, #columna2, #columna3 {
+	float:left;
+	width:33%;
+}}
+
+/* Diseño para celulares */
+@media screen and (max-width:320px){
+#columna1, #columna2, #columna3 {
+	float:none;
+	width:25%;
+}}
+  

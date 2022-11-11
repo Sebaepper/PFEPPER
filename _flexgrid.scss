@@ -1,0 +1,26 @@
+.flex-container{
+    
+    display: flex;
+    justify-content:space-between;
+    margin: 0px;
+    flex-wrap: wrap;
+    }
+    
+    .flex-container > div{
+      margin-top: 10px;
+      }
+
+
+      
+    .nav1{
+        display: grid;  
+        grid-template-columns: auto;
+        }
+
+        .inst{
+            display: flex;
+            flex-direction:row;
+            flex-wrap: wrap;
+            justify-content:space-around;
+            margin: 40px;
+            }
