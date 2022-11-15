@@ -1,57 +1,19 @@
-@import "fonts";
+@import "./SASS/fonts";
 
-@import "laflota";
+@import "./SASS/laflota";
 
-@import "flexgrid";
+@import "./SASS/flexgrid";
         
-@import "animacion";
+@import "./SASS/animacion";
           
-     
-            
-    
-    @media screen and (min-whidth: 600px) {
-            body {
-                background-color: #000000;
-            }
-        }
-        
-@media screen and (max-width: 992px) {
-    .column {
-      width: 50%;
-    }
-  }
-  
-  @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-    }
-}
+@import "./SASS/mediaquerys";  
 
-@media screen and (max-width:480px){
-	body {
-		font-size:80%; // achicamos la fuente en pantallas pequeñas 
-	} 
-}
 
-/* Diseño para tabletas */ 
-@media screen and (min-width: 800px) {
-	#columna1, #columna2 {
-		float:left;
-		width:50%;
-	}
-}
-
-/* Diseño para PC */ 
-@media screen and (min-width: 1025px) {
-	#columna1, #columna2, #columna3 {
-	float:left;
-	width:33%;
-}}
-
-/* Diseño para celulares */
-@media screen and (max-width:320px){
-#columna1, #columna2, #columna3 {
-	float:none;
-	width:25%;
-}}
-  
+ @mixin seba {
+  background-size: cover;
+  margin: 2px;
+  width: 400px;
+  height: 250px;
+  border-style: solid;
+  color: black;
+ }

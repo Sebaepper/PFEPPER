@@ -91,7 +91,11 @@ footer {
   display: grid;
   grid-template-columns: auto auto auto;
   margin: 0%;
-  padding: 0ch; }
+  padding: 0%; }
+  .grid-container .item1 {
+    border-color: red; }
+  .grid-container .item2 {
+    border-color: blue; }
 
 .item1 {
   background-image: url(./imagenes/1.jpg);
@@ -99,8 +103,7 @@ footer {
   margin: 2px;
   width: 400px;
   height: 250px;
-  border-style: solid;
-  color: black; }
+  border-style: solid; }
 
 .item2 {
   background-image: url(./imagenes/2.jpg);
@@ -108,8 +111,7 @@ footer {
   margin: 2px;
   width: 400px;
   height: 250px;
-  border-style: solid;
-  color: black; }
+  border-style: solid; }
 
 .item3 {
   background-image: url(./imagenes/3.jpg);
