@@ -20,12 +20,12 @@
 
 @media screen and (max-width:480px){
 body {
-    font-size:80%; // achicamos la fuente en pantallas pequeñas 
+    font-size:80%; 
 } 
 }
 
 
-/* Diseño para tabletas */ 
+
 @media screen and (min-width: 800px) {
 #columna1, #columna2 {
     float:left;
@@ -33,14 +33,14 @@ body {
 }
 }
 
-/* Diseño para PC */ 
+
 @media screen and (min-width: 1025px) {
 #columna1, #columna2, #columna3 {
 float:left;
 width:33%;
 }}
 
-/* Diseño para celulares */
+
 @media screen and (max-width:320px){
 #columna1, #columna2, #columna3 {
 float:none;

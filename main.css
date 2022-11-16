@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url(https://fonts.googleapis.com/css?family=Tangerine);
 * {
   margin: 0%;
@@ -224,19 +223,16 @@ footer {
   body {
     font-size: 80%; } }
 
-/* Diseño para tabletas */
 @media screen and (min-width: 800px) {
   #columna1, #columna2 {
     float: left;
     width: 50%; } }
 
-/* Diseño para PC */
 @media screen and (min-width: 1025px) {
   #columna1, #columna2, #columna3 {
     float: left;
     width: 33%; } }
 
-/* Diseño para celulares */
 @media screen and (max-width: 320px) {
   #columna1, #columna2, #columna3 {
     float: none;
